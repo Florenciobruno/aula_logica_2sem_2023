@@ -1,0 +1,97 @@
+/*num = parseInt(prompt("Digite um número: "));
+  if (num <= 20)
+    {
+console.log(num);
+  }
+  else{
+console.log(num/2);
+    }*/
+
+
+/*let number = parseInt(prompt("Digite um número"));
+  if (number >= 50 && number <= 100)
+    {
+      console.log("Pertence ao intervalo");
+    }
+    else{
+      console.log("Não pertence ao intervalo");
+    }
+*/
+
+
+/*let number1 = parseInt(prompt("Digite o primeiro valor"))
+let number2 = parseInt(prompt("Digite o segundo valor"))
+
+if (number1 == number2)
+  
+{
+  console.log("Números iguais");
+}
+  
+else{
+  console.log(number1 - number2);
+}
+*/
+
+
+
+/*let number1 = parseFloat(prompt("Digite o primeiro valor"))
+let number2 = parseFloat(prompt("Digite o segundo valor"))
+
+if (number1 > number2)
+{  
+  console.log(number1);
+}
+else
+{
+  console.log(number2);
+}
+*/
+
+
+
+/*let salario = parseFloat(prompt("Digite o valor do salário"))
+let anoAtual = parseFloat(prompt("Digite o ano atual"))
+let anoAdmissao = parseFloat(prompt("Digite o ano de admissão"))
+
+
+if (anoAtual - anoAdmissao >= 5 )
+{
+  console.log(salario *1.2);
+}
+else{
+  console.log(salario * 1.1);
+}
+*/
+
+
+/*let idade =parseInt(prompt("Insira sua idade: "))
+  if (idade >= 18)
+  {
+    console.log("Maior de idade");
+  }
+else
+  {
+    console.log("Menor de idade");
+  }
+*/
+
+
+console.log("Olá, digite seu nome: ")
+
+let nome = parseInt(prompt())
+{
+console.log ("Seja bem vindo " + (nome));
+}
+
+let peso = parseInt(prompt("Digite seu peso: "))
+
+let altura = parseInt(prompt("Digite sua altura: "))
+{
+console.log(peso / (altura * 2 ));
+}
+
+
+
+  
+
