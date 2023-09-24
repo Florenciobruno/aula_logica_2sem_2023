@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03 Js</title>
+</head>
+<body>
+
+    <h1>Exercícios JavaScript entrega 28/09/2023 </h1>
+
+        <p>Faça um programa que receba o salário de um funcionáro, calcule e mostre o novo salário, sabendo que este </p>
+        <p>sofreu um aumento de 20%.</p>
+    
+    <script>
+        do{
+        var salario = parseFloat(prompt("Insira o valor do salário a ser calculado: "))
+        var aumento = salario * 1.2
+
+            if (salario <= 0)
+                alert("Insira um valor maior que zero!")
+            
+            else
+            alert("O novo salário terá o valor de: " + aumento + "!")
+            alert("Clique em ok para calcular um novo valor!")
+        } while (salario <= 0 || salario > 1)
+
+    </script>
+
+    
+    
+</body>
+</html>

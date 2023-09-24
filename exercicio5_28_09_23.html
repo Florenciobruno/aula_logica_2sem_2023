@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05 Js</title>
+</head>
+<body>
+
+    <h1>Exercícios JavaScript entrega 28/09/2023 </h1>
+
+        <p> Faça um programa que receba o salário de um funcionário, calcule e mostre o salário a receber, sabendo que esse funcionário</p>
+        <p>tem gratificação de 5% sobre o salário-base e paga de importo 7% sobre o salario-base.</p>
+
+    <script>
+        var salarioBase = parseFloat(prompt("Insira o valor do salário a ser calculado"));
+        var salarioIr = salarioBase * 0.93
+        var salarioBonus = salarioBase * 0.05
+        
+        if (salarioBase <= 0)
+            alert("Insira um valor maior que zero")
+        else(salarioBase > 0)
+            alert(salarioIr + salarioBonus)
+
+
+    </script>
+  
+    
+    
+</body>
+</html>
