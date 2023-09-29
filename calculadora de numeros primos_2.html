@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Números Primos</title>
+</head>
+<body>
+    <script>
+
+        do{
+
+        var entrada = parseFloat(prompt("Insira o valor de entrada!"));
+        
+        if (entrada % 3 === 0 || entrada % 4 === 0 || entrada % 5 === 0) {
+            alert("Este não é um número primo!");
+           
+        } else alert("Este é um número primo");
+        
+        } while (entrada >= 1);
+        
+    </script>
+</body>
+</html>
