@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+			<title>Exercício 04</title>
+		</head>
+		
+		<body>
+			<p>Pedir para o usuário digitar um número positivo!</p>
+			
+			<script>
+				
+				alert("Digite um número Positivo");
+				
+				do{
+				var entrada = parseInt(prompt("Digite um número Positivo"));
+				
+						if(entrada >= 0)
+							document.write("Muito bem, você digitou " + entrada + " e este é um número positivo!")
+						else
+							alert("Este não é um número positivo, tente novamente")
+				}while(entrada < 0)
+			</script>
+		</body>
+	</html>
